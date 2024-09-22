@@ -1,0 +1,39 @@
+.card-about{
+    max-width: 380px;
+    border-radius: 15px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.card-about:hover {
+    background-color: #025595;
+}
+.card-about:hover h1{
+    color: white;
+}
+.card-about:hover path{
+    fill:white;
+}
+.card-about:hover p{
+    color:white;
+    opacity: 1;
+}
+.header-card-about{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #222222;
+}
+.desc-card-about{
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 0.5;
+    line-height: 24px;
+    color: #222222;
+    max-width: 300px;
+
+}

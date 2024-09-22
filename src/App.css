@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+}
+.b{
+    background-color: #EFF8FF;
+}
+.my-container{
+    padding: 0 70px;
+    overflow-y: hidden;
+}
+.main-margin{
+    margin-top: 95px;
+    margin-bottom: 95px;
+}
+@media screen and (max-width:992px) {
+    .my-container{
+        padding:  30px 20px;
+    }
+    .main-margin{
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+}

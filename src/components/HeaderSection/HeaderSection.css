@@ -1,0 +1,25 @@
+.header-sec{
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #222222;
+    margin-bottom: 5px;
+}
+.desc-sec{
+    color: #222222;
+    opacity: 0.5;
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 56px;
+    
+}
+@media screen and (max-width:992px) {
+    .header-sec{
+        font-size: 30px;
+        line-height: 37px;
+    }
+    .desc-sec{
+        line-height: 22px;
+        margin-bottom: 42px;
+    }
+}

@@ -1,0 +1,117 @@
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    
+
+    .main-ul{
+        display: flex;
+        list-style: none;
+        gap: 20px;
+
+        li{
+            font-weight: 500;
+            color: #222222;
+            
+        }
+    }
+    .menuBtn{
+        display: none;
+        border: none;
+
+        .icon-menu{
+            font-size: 36px;
+            color: #025595;
+        }
+    }
+    .main-login{
+        border: none;
+        width: 135px;
+        height: 38px;
+        border-radius: 6px;
+        padding: 13px 20px ;
+        background-color: #025595;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+      .menu-nav{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        max-height: fit-content;
+        background-color: white;
+        z-index: 3;
+        
+
+        .btn-close{
+            font-size: 36px;
+            color: #025595;
+        }
+        ul{
+            display:flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 32px;
+            margin-top: 39px;
+            li{
+                font-size: 24px;
+                line-height: 64px;
+                color: #222222;
+                font-weight: 400;
+                border-top: 1px solid #000000;
+                border-bottom: 1px solid #000000;
+                padding:  0 10px;
+                cursor: pointer;
+            }
+            li:hover{
+                background-color: #D7E6EA;
+                border: none;
+                border-radius: 5px;
+            }
+            .enter-li{
+                background-color: #D7E6EA;
+                border: none;
+                border-radius: 5px;
+            } 
+        }
+        .login{
+            border: none;
+            width: 135px;
+            height: 38px;
+            border-radius: 6px;
+            padding: 13px 30px ;
+            background-color: #025595;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 70px auto;
+
+        }
+      }
+
+}
+.close{
+    display: none;
+}
+.open{
+    display: block;
+}
+
+@media screen and (max-width:992px) {
+     .navbar .main-ul{
+        display: none;
+     }
+     .navbar .main-login{
+        display: none;
+     }
+     .navbar .menuBtn{
+        display: block;
+     }
+}

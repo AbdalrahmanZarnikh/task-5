@@ -1,0 +1,47 @@
+.deals ul{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 41px;
+    li{
+        font-size: 18px;
+        line-height: 21px;
+        color: #222222;
+        transition: 0.3 all ease-in;
+        height: 40px;
+        position: relative;
+        
+    }
+    li:hover {
+        border-bottom: 3px solid #025595;
+        color: #025595;
+        font-weight: 600;
+       }
+    .active{
+        border-bottom: 3px solid #025595;
+        color: #025595;
+        font-weight: 600;
+    }
+
+   
+}
+
+.images{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+.images img{
+    max-width: 385px;
+    border-radius: 6px;
+    
+}
+
+@media screen and (max-width:992px) {
+    .images {
+        flex-direction: column;
+    }
+    .deals ul {
+        flex-wrap: wrap;
+    }
+}

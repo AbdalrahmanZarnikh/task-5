@@ -1,0 +1,43 @@
+.card-trend{
+    max-width:382px;
+    box-shadow: 0 0 10px 0 #0000001A;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #FFFFFF26;
+}
+.card-trend img{
+    margin-bottom: 16px;
+}
+.card-trend .price{
+    width: 84px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #025595;
+}
+.card-trend .name{
+    width: 180px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    color: #222222;
+    margin-bottom: 38px;
+}
+.info{
+    display: flex;
+    gap: 10px;
+}
+.info p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #222222;
+}
+
+@media screen and (max-width:992px) {
+    .card-trend .name{
+        font-size: 16px;
+        width: 237px;
+        margin-bottom: 72px;
+    }
+}

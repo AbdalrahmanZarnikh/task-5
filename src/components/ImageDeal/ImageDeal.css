@@ -1,0 +1,27 @@
+.deal-image{
+    position: relative;
+
+}
+
+.features-btn{
+    position: absolute;
+    margin: 14px;
+}
+.features-btn button{
+    margin: 0 5px;
+    max-width: 80px;
+    border: 1px solid #FFFFFF;
+    background-color: #22222266;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 15px ;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 6px 12px;
+
+}
+@media screen and (max-width:992px) {
+    .features-btn{
+       margin-left: 30px;
+    }
+}
