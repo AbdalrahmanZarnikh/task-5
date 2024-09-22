@@ -29,7 +29,7 @@
     .main-login{
         border: none;
         width: 135px;
-        height: 38px;
+        max-height: 38px;
         border-radius: 6px;
         padding: 13px 20px ;
         background-color: #025595;
@@ -84,7 +84,7 @@
         .login{
             border: none;
             width: 135px;
-            height: 38px;
+            max-height: 38px;
             border-radius: 6px;
             padding: 13px 30px ;
             background-color: #025595;
